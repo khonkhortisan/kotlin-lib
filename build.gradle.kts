@@ -55,5 +55,5 @@ dependencies {
 
 	testImplementation(kotlin("test"))
 
-	implementation 'com.github.khonkhortisan:kotlin-lib:throwable-SNAPSHOT'
+	implementation("com.github.khonkhortisan:kotlin-lib:throwable-SNAPSHOT")
 }
