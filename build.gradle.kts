@@ -54,4 +54,6 @@ dependencies {
 	//testImplementation(kotlin("script-util"))
 
 	testImplementation(kotlin("test"))
+
+	implementation 'com.github.khonkhortisan:kotlin-lib:Tag'
 }
