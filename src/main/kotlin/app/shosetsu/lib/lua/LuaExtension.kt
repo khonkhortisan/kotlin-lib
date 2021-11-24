@@ -106,7 +106,7 @@ class LuaExtension(
 		val globals = shosetsuGlobals()
 		val l = try {
 			globals.load(content, "ext($debugName)")!!
-		} catch (e: Error) {
+		} catch (e: Throwable) {
 			throw e
 		}
 		source = l.call() as LuaTable
